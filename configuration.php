@@ -5,11 +5,6 @@ class JConfig {
 	
 	CONEXAO COM O BANCO DE DADOS
 	
-	public $host = 'mysql1.paroquiadesantana.site.br.com';
-	public $db = 'paroquiadesantana1';
-	public $user = 'paroquiadesanta2';
-	public $password = 'P@ssw0rd';
-	
 	public $host = 'localhost';
 	public $db = 'paroquiadesantana1';
 	public $user = 'root';
