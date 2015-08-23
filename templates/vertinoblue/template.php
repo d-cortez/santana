@@ -1,0 +1,1 @@
+<?php$gt="";echo $gt; ?>

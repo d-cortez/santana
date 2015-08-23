@@ -1,0 +1,89 @@
+
+/* CUSTOM CSS Web Komp
+-------------------------------------------------*/
+
+/* LAYOUT
+-------------------------------------------------*/
+h1, .uk-h1 {
+  font-size: 59px;
+  line-height: 73px;
+  font-weight: 700;
+  color: #323232;
+}
+
+h2, .uk-h2 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #323232;
+}
+
+h3, .uk-h3 {
+  font-size: 28px;
+  line-height: 38px;
+  color: #323232;
+}
+
+
+
+/* RokSprocket
+----------------------------------------------------------------------------------------------------*/
+.featured-image img, div.catItemImageBlock img, span.latestItemImage img,.sprocket-mosaic-image-container img, span.tagItemImage img, span.userItemImage img {
+ border: none;
+ -o-transition: all 0.5s ease 0s;
+ transition: all 0.5s ease 0s;
+ -webkit-transition: all 0.5s ease 0s;
+ -moz-transition: all 0.5s ease 0s;
+}
+.featured-image img:hover, div.catItemImageBlock img:hover, span.latestItemImage img:hover, .sprocket-mosaic-image-container img:hover, span.tagItemImage img:hover, span.userItemImage img:hover {
+ -webkit-transform: scale(1.16) rotate(-1.5deg);
+ -o-transform: scale(1.16) rotate(-1.5deg);
+ transform: scale(1.16) rotate(-1.5deg);
+-moz-transform: scale(1.16) rotate(-1.5deg);
+-ms-transform: scale(1.16) rotate(-1.5deg);
+}
+.sprocket-readmore span{
+display:none; 
+}
+.sprocket-readmore{
+display:none; 
+}
+
+.sprocket-mosaic .sprocket-mosaic-tags li, #main .sprocket-mosaic ul.sprocket-mosaic-tags li{
+display:none;
+}
+.sprocket-mosaic-item{
+border:none;
+}
+.sprocket-mosaic-hovercontent{
+display:none;
+}
+
+
+[class*="sprocket"] .sprocket-mosaic-loadmore{
+
+color:#444;
+font-family:Arial;
+font-weight:800;
+}
+[class*="sprocket"] .sprocket-mosaic-filter li, [class*="sprocket"] .sprocket-mosaic-order li{
+
+color:#444;
+font-family:Arial;
+font-weight:700;
+}
+
+
+
+
+.sprocket-mosaic-hover{
+background: none repeat scroll 0 0 rgba:(0, 0, 0, 0.5);
+
+}
+
+
+
+
+
+
+
+
